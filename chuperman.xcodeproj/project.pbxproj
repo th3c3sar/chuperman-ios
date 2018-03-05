@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F5369630F0885429B8ED94 /* Pods_chupermanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A5E0269C28A0BDD425D337 /* Pods_chupermanUITests.framework */; };
+		E324CB3982C6132233533FF6 /* Pods_chupermanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63F2E884BC3E1530E4D8DA8 /* Pods_chupermanTests.framework */; };
+		F9932E8F296D22324FB422AB /* Pods_chuperman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744087A9576F40256858FA42 /* Pods_chuperman.framework */; };
+		FC29BEC72029417000D3A286 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC29BEC62029417000D3A286 /* CoreLocation.framework */; };
+		FCCFB73B20238030008D4BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFB73A20238030008D4BA4 /* AppDelegate.swift */; };
+		FCCFB73D20238030008D4BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFB73C20238030008D4BA4 /* ViewController.swift */; };
+		FCCFB74020238030008D4BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCFB73E20238030008D4BA4 /* Main.storyboard */; };
+		FCCFB74220238030008D4BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCFB74120238030008D4BA4 /* Assets.xcassets */; };
+		FCCFB74520238030008D4BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCFB74320238030008D4BA4 /* LaunchScreen.storyboard */; };
+		FCCFB75020238030008D4BA4 /* chupermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFB74F20238030008D4BA4 /* chupermanTests.swift */; };
+		FCCFB75B20238030008D4BA4 /* chupermanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFB75A20238030008D4BA4 /* chupermanUITests.swift */; };
+		FCF701882024064400368963 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCF701872024064400368963 /* GoogleService-Info.plist */; };
+		FCF7018D2025726400368963 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7018C2025726400368963 /* MapController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCFB74C20238030008D4BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCFB72F20238030008D4BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCFB73620238030008D4BA4;
+			remoteInfo = chuperman;
+		};
+		FCCFB75720238030008D4BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCFB72F20238030008D4BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCFB73620238030008D4BA4;
+			remoteInfo = chuperman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2955BEA4BABCB9B3812A7786 /* Pods-chuperman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chuperman.release.xcconfig"; path = "Pods/Target Support Files/Pods-chuperman/Pods-chuperman.release.xcconfig"; sourceTree = "<group>"; };
+		4D33C21AD99BFD960BA031A5 /* Pods-chupermanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chupermanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chupermanUITests/Pods-chupermanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		744087A9576F40256858FA42 /* Pods_chuperman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chuperman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		913792210F5DE3641F702E18 /* Pods-chupermanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chupermanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chupermanTests/Pods-chupermanTests.release.xcconfig"; sourceTree = "<group>"; };
+		932BE93DE13F1BC1C99E00D9 /* Pods-chuperman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chuperman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chuperman/Pods-chuperman.debug.xcconfig"; sourceTree = "<group>"; };
+		B63F2E884BC3E1530E4D8DA8 /* Pods_chupermanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chupermanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A5E0269C28A0BDD425D337 /* Pods_chupermanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chupermanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D6A8592E0D805FA7FB6C8D /* Pods-chupermanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chupermanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chupermanTests/Pods-chupermanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F76691633571C803FC593401 /* Pods-chupermanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chupermanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chupermanUITests/Pods-chupermanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC29BEC62029417000D3A286 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCCFB73720238030008D4BA4 /* chuperman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chuperman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCFB73A20238030008D4BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCCFB73C20238030008D4BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCCFB73F20238030008D4BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCFB74120238030008D4BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCFB74420238030008D4BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCFB74620238030008D4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCFB74B20238030008D4BA4 /* chupermanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chupermanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCFB74F20238030008D4BA4 /* chupermanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chupermanTests.swift; sourceTree = "<group>"; };
+		FCCFB75120238030008D4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCFB75620238030008D4BA4 /* chupermanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chupermanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCFB75A20238030008D4BA4 /* chupermanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chupermanUITests.swift; sourceTree = "<group>"; };
+		FCCFB75C20238030008D4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF701872024064400368963 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCF7018920240D4100368963 /* chuperman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chuperman.entitlements; sourceTree = "<group>"; };
+		FCF7018C2025726400368963 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCFB73420238030008D4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC29BEC72029417000D3A286 /* CoreLocation.framework in Frameworks */,
+				F9932E8F296D22324FB422AB /* Pods_chuperman.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB74820238030008D4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E324CB3982C6132233533FF6 /* Pods_chupermanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB75320238030008D4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F5369630F0885429B8ED94 /* Pods_chupermanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B90034A80D95A9DD75EE4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				932BE93DE13F1BC1C99E00D9 /* Pods-chuperman.debug.xcconfig */,
+				2955BEA4BABCB9B3812A7786 /* Pods-chuperman.release.xcconfig */,
+				F0D6A8592E0D805FA7FB6C8D /* Pods-chupermanTests.debug.xcconfig */,
+				913792210F5DE3641F702E18 /* Pods-chupermanTests.release.xcconfig */,
+				4D33C21AD99BFD960BA031A5 /* Pods-chupermanUITests.debug.xcconfig */,
+				F76691633571C803FC593401 /* Pods-chupermanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89DEF169AEEB5DAB3DBE6D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC29BEC62029417000D3A286 /* CoreLocation.framework */,
+				744087A9576F40256858FA42 /* Pods_chuperman.framework */,
+				B63F2E884BC3E1530E4D8DA8 /* Pods_chupermanTests.framework */,
+				C7A5E0269C28A0BDD425D337 /* Pods_chupermanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCFB72E20238030008D4BA4 = {
+			isa = PBXGroup;
+			children = (
+				FCF701872024064400368963 /* GoogleService-Info.plist */,
+				FCCFB73920238030008D4BA4 /* chuperman */,
+				FCCFB74E20238030008D4BA4 /* chupermanTests */,
+				FCCFB75920238030008D4BA4 /* chupermanUITests */,
+				FCCFB73820238030008D4BA4 /* Products */,
+				22B90034A80D95A9DD75EE4D /* Pods */,
+				89DEF169AEEB5DAB3DBE6D1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCFB73820238030008D4BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCFB73720238030008D4BA4 /* chuperman.app */,
+				FCCFB74B20238030008D4BA4 /* chupermanTests.xctest */,
+				FCCFB75620238030008D4BA4 /* chupermanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCFB73920238030008D4BA4 /* chuperman */ = {
+			isa = PBXGroup;
+			children = (
+				FCF7018920240D4100368963 /* chuperman.entitlements */,
+				FCCFB73A20238030008D4BA4 /* AppDelegate.swift */,
+				FCCFB73C20238030008D4BA4 /* ViewController.swift */,
+				FCCFB73E20238030008D4BA4 /* Main.storyboard */,
+				FCCFB74120238030008D4BA4 /* Assets.xcassets */,
+				FCCFB74320238030008D4BA4 /* LaunchScreen.storyboard */,
+				FCCFB74620238030008D4BA4 /* Info.plist */,
+				FCF7018C2025726400368963 /* MapController.swift */,
+			);
+			path = chuperman;
+			sourceTree = "<group>";
+		};
+		FCCFB74E20238030008D4BA4 /* chupermanTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCFB74F20238030008D4BA4 /* chupermanTests.swift */,
+				FCCFB75120238030008D4BA4 /* Info.plist */,
+			);
+			path = chupermanTests;
+			sourceTree = "<group>";
+		};
+		FCCFB75920238030008D4BA4 /* chupermanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCFB75A20238030008D4BA4 /* chupermanUITests.swift */,
+				FCCFB75C20238030008D4BA4 /* Info.plist */,
+			);
+			path = chupermanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCFB73620238030008D4BA4 /* chuperman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCFB75F20238030008D4BA4 /* Build configuration list for PBXNativeTarget "chuperman" */;
+			buildPhases = (
+				134E2E39EFA41F8C43B12CEC /* [CP] Check Pods Manifest.lock */,
+				FCCFB73320238030008D4BA4 /* Sources */,
+				FCCFB73420238030008D4BA4 /* Frameworks */,
+				FCCFB73520238030008D4BA4 /* Resources */,
+				F15A36D1B525FAF1E3406267 /* [CP] Embed Pods Frameworks */,
+				7B4B20033647E72C99A92C51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chuperman;
+			productName = chuperman;
+			productReference = FCCFB73720238030008D4BA4 /* chuperman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCFB74A20238030008D4BA4 /* chupermanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCFB76220238030008D4BA4 /* Build configuration list for PBXNativeTarget "chupermanTests" */;
+			buildPhases = (
+				C3C453CB9573095D18BB07EA /* [CP] Check Pods Manifest.lock */,
+				FCCFB74720238030008D4BA4 /* Sources */,
+				FCCFB74820238030008D4BA4 /* Frameworks */,
+				FCCFB74920238030008D4BA4 /* Resources */,
+				72024FBD05D0F3C7CBAF2B53 /* [CP] Embed Pods Frameworks */,
+				F8DED876AF91F469FE41EC29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCFB74D20238030008D4BA4 /* PBXTargetDependency */,
+			);
+			name = chupermanTests;
+			productName = chupermanTests;
+			productReference = FCCFB74B20238030008D4BA4 /* chupermanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCFB75520238030008D4BA4 /* chupermanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCFB76520238030008D4BA4 /* Build configuration list for PBXNativeTarget "chupermanUITests" */;
+			buildPhases = (
+				A0CD90BAA1233E0A9FAFD8CA /* [CP] Check Pods Manifest.lock */,
+				FCCFB75220238030008D4BA4 /* Sources */,
+				FCCFB75320238030008D4BA4 /* Frameworks */,
+				FCCFB75420238030008D4BA4 /* Resources */,
+				06B5113C0FC2850F077D5DE3 /* [CP] Embed Pods Frameworks */,
+				6AFA8EC261A0B6C2AD6E9397 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCFB75820238030008D4BA4 /* PBXTargetDependency */,
+			);
+			name = chupermanUITests;
+			productName = chupermanUITests;
+			productReference = FCCFB75620238030008D4BA4 /* chupermanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCFB72F20238030008D4BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Cesar Saravia";
+				TargetAttributes = {
+					FCCFB73620238030008D4BA4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					FCCFB74A20238030008D4BA4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCCFB73620238030008D4BA4;
+					};
+					FCCFB75520238030008D4BA4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCCFB73620238030008D4BA4;
+					};
+				};
+			};
+			buildConfigurationList = FCCFB73220238030008D4BA4 /* Build configuration list for PBXProject "chuperman" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCFB72E20238030008D4BA4;
+			productRefGroup = FCCFB73820238030008D4BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCFB73620238030008D4BA4 /* chuperman */,
+				FCCFB74A20238030008D4BA4 /* chupermanTests */,
+				FCCFB75520238030008D4BA4 /* chupermanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCFB73520238030008D4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCFB74520238030008D4BA4 /* LaunchScreen.storyboard in Resources */,
+				FCF701882024064400368963 /* GoogleService-Info.plist in Resources */,
+				FCCFB74220238030008D4BA4 /* Assets.xcassets in Resources */,
+				FCCFB74020238030008D4BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB74920238030008D4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB75420238030008D4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B5113C0FC2850F077D5DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chupermanUITests/Pods-chupermanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		134E2E39EFA41F8C43B12CEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chuperman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AFA8EC261A0B6C2AD6E9397 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chupermanUITests/Pods-chupermanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72024FBD05D0F3C7CBAF2B53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chupermanTests/Pods-chupermanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4B20033647E72C99A92C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chuperman/Pods-chuperman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CD90BAA1233E0A9FAFD8CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chupermanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C453CB9573095D18BB07EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chupermanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15A36D1B525FAF1E3406267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-chuperman/Pods-chuperman-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chuperman/Pods-chuperman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DED876AF91F469FE41EC29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chupermanTests/Pods-chupermanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCFB73320238030008D4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCFB73D20238030008D4BA4 /* ViewController.swift in Sources */,
+				FCF7018D2025726400368963 /* MapController.swift in Sources */,
+				FCCFB73B20238030008D4BA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB74720238030008D4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCFB75020238030008D4BA4 /* chupermanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCFB75220238030008D4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCFB75B20238030008D4BA4 /* chupermanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCFB74D20238030008D4BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCFB73620238030008D4BA4 /* chuperman */;
+			targetProxy = FCCFB74C20238030008D4BA4 /* PBXContainerItemProxy */;
+		};
+		FCCFB75820238030008D4BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCFB73620238030008D4BA4 /* chuperman */;
+			targetProxy = FCCFB75720238030008D4BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCCFB73E20238030008D4BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCFB73F20238030008D4BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCCFB74320238030008D4BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCFB74420238030008D4BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCFB75D20238030008D4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCFB75E20238030008D4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCFB76020238030008D4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932BE93DE13F1BC1C99E00D9 /* Pods-chuperman.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chuperman/chuperman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = chuperman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chuperman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCFB76120238030008D4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2955BEA4BABCB9B3812A7786 /* Pods-chuperman.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chuperman/chuperman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = chuperman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chuperman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCCFB76320238030008D4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D6A8592E0D805FA7FB6C8D /* Pods-chupermanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chupermanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chupermanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chuperman.app/chuperman";
+			};
+			name = Debug;
+		};
+		FCCFB76420238030008D4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913792210F5DE3641F702E18 /* Pods-chupermanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chupermanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chupermanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chuperman.app/chuperman";
+			};
+			name = Release;
+		};
+		FCCFB76620238030008D4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D33C21AD99BFD960BA031A5 /* Pods-chupermanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chupermanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chupermanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chuperman;
+			};
+			name = Debug;
+		};
+		FCCFB76720238030008D4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76691633571C803FC593401 /* Pods-chupermanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chupermanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webatlas.chupermanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chuperman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCFB73220238030008D4BA4 /* Build configuration list for PBXProject "chuperman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCFB75D20238030008D4BA4 /* Debug */,
+				FCCFB75E20238030008D4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCFB75F20238030008D4BA4 /* Build configuration list for PBXNativeTarget "chuperman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCFB76020238030008D4BA4 /* Debug */,
+				FCCFB76120238030008D4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCFB76220238030008D4BA4 /* Build configuration list for PBXNativeTarget "chupermanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCFB76320238030008D4BA4 /* Debug */,
+				FCCFB76420238030008D4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCFB76520238030008D4BA4 /* Build configuration list for PBXNativeTarget "chupermanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCFB76620238030008D4BA4 /* Debug */,
+				FCCFB76720238030008D4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCFB72F20238030008D4BA4 /* Project object */;
+}

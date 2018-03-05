@@ -1,0 +1,6 @@
+framework module Pods_chupermanTests {
+  umbrella header "Pods-chupermanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
